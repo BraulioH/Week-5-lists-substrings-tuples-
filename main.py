@@ -6,8 +6,8 @@
 ##############################################################################################################
 # basic review
 # Find and display on the screen which character occupies the fifth position within the following word:
-computer = "computer"
-print(computer[5])
+#computer = "computer"
+#print(computer[5])
 
 # Find and display the index of the last occurrence of the word "practice" in the following sentence:
 # newSentence = "In theory, theory and practice are the same. In practice, they are not."
@@ -16,9 +16,22 @@ print(computer[5])
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-my_list = ["bay","ddaa", 34, 56]
+#my_list = ["bay","ddaa", 34, 56, 78, 98, 102]
+#my_list.append("jewelry")
+#print(my_list)
+#my_list.pop()
+#print(my_list)
+#pop removes from the end
+#my_list.remove("ddaa")
+#print(my_list)
+#my_list.insert(3, "bobba bobba")
+#print(my_list)
 
-
+#new_list = ["blue", "green", "red", "orange", "yellow"]
+#print(new_list)
+#join the my_list with new_list
+#both_list = my_list + new_list
+#print(both_list)
 # Add the element "motorcycle" to the following list of means of transportation:
 
 # transportation_means = ["plane", "car", "ship", "bicycle"]
@@ -39,28 +52,34 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+luckyFriends = luckyNumbers + friends
 ###### print the new list out
+print(luckyFriends)
 #print(newList2)
+print(luckyFriends)
 ###### print out the first item in the list
 
 ###### remove the last item of the new list
-
+luckyFriends.pop()
 ###### print the new list out without the last item
-
+print(luckyFriends)
 ###### add three more items to the end of the list
-
+luckyFriends.append("tommy")
+luckyFriends.append("jerry")
+luckyFriends.append("bull")
+print(luckyFriends)
 ###### print the last item in the new list
 
 ###### sort the list
 
 ###### find a way to insert a new item at the 3rd position of the list
-
+luckyFriends.insert(2, 2.5)
 ###### print the new list out
-
+print(luckyFriends)
 ##### reverse the list
-
+luckyFriends.reverse()
 ###### print the new list out
+print(luckyFriends)
 ###### print out the length of the new list
 
 #####################################challenge 2#######################################################
